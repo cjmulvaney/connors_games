@@ -12,11 +12,11 @@ export interface Game {
 
 export const games: Game[] = [
   {
-    id: "homestake-lodge-xc-ski-2026",
-    name: "Homestake Lodge XC Ski Weekend 2026",
+    id: "party-quests",
+    name: "Party Quests",
     description:
-      "A weekend-long game of silly missions. Most missions accomplished wins!",
-    url: "/games/homestake-lodge-xc-ski-2026",
+      "Secret missions for social events. Complete challenges, spark conversations, and climb the live leaderboard.",
+    url: "/games/party-quests",
     tags: ["For Fun", "Humor"],
   },
   {
