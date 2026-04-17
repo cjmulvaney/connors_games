@@ -16,25 +16,39 @@ export const games: Game[] = [
     name: "Party Quests",
     description:
       "Secret missions for social events. Complete challenges, spark conversations, and climb the live leaderboard.",
-    url: "/games/party-quests",
+    url: "https://party-quest-six.vercel.app/",
     tags: ["For Fun", "Humor"],
-  },
-  {
-    id: "placeholder-2",
-    name: "Placeholder Game Two",
-    description:
-      "A silly game that will make you laugh. Don't take it too seriously.",
-    url: "https://example.com/game-2",
-    tags: ["Humor", "For Fun"],
+    imageUrl: "/images/Party Quest.png",
     external: true,
   },
   {
-    id: "placeholder-3",
-    name: "Placeholder Game Three",
+    id: "how-llms-work",
+    name: "How LLMs Work",
     description:
-      "Learn something new while you play. Education meets entertainment.",
-    url: "https://example.com/game-3",
+      "An interactive game that teaches you how large language models think, learn, and generate text.",
+    url: "https://how-ll-ms-work-game.vercel.app/",
     tags: ["Educational"],
+    imageUrl: "/images/How LLMs Work.png",
+    external: true,
+  },
+  {
+    id: "special-birthday-calculator",
+    name: "Special Birthday Calculator",
+    description:
+      "Discover what makes your birthday truly special with this whimsical calculator.",
+    url: "https://special-birthday-calculatorr.vercel.app/",
+    tags: ["For Fun", "Humor"],
+    imageUrl: "/images/Special Birthday Calculator.png",
+    external: true,
+  },
+  {
+    id: "securifi-mfa",
+    name: "SecuriFi Authentication Experience",
+    description:
+      "Learn multi-factor authentication concepts through an engaging security-themed game.",
+    url: "https://securi-fi-authentication-experience.vercel.app/",
+    tags: ["Educational"],
+    imageUrl: "/images/SecuriFi.png",
     external: true,
   },
 ];

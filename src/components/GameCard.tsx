@@ -10,16 +10,18 @@ export default function GameCard({ game }: GameCardProps) {
   const cardContent = (
     <div className="bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 overflow-hidden">
       {/* Image area */}
-      <div className="relative aspect-[16/10]">
+      <div className="relative">
         {game.imageUrl ? (
           <Image
             src={game.imageUrl}
             alt={game.name}
-            fill
-            className="object-cover"
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="w-full h-auto block"
           />
         ) : (
-          <div className="absolute inset-0 bg-gradient-to-br from-sky/15 to-forest/15 flex items-center justify-center">
+          <div className="h-48 bg-gradient-to-br from-sky/15 to-forest/15 flex items-center justify-center">
             <svg
               className="w-12 h-12 text-slate-300"
               fill="none"
