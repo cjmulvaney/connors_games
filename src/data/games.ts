@@ -48,7 +48,7 @@ export const games: Game[] = [
       "Learn multi-factor authentication concepts through an engaging security-themed game.",
     url: "https://securi-fi-authentication-experience.vercel.app/",
     tags: ["Educational"],
-    imageUrl: "/images/SecuriFi.png",
+    imageUrl: "/images/SecuriFi updated.png",
     external: true,
   },
 ];
